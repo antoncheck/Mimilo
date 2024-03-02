@@ -1,0 +1,683 @@
+@import url(./fonts.css);
+*{
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    background: url(../img/background.jpg);
+    overflow-x: hidden;
+}
+
+.glavn{
+    height: 800px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.container .head-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    margin-top: 20px;
+}
+.container .colection-history{
+    display: flex;
+
+
+}
+.container .colection-history h2 a{
+    font-size: 14px;
+    color: #988f87;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-right: 45px;
+    text-decoration: none;
+    margin-top: 0;
+}
+.container .colection-history h2{
+    margin-top: 8px;
+}
+
+.container .mimilo h2{
+    font-size: 24px;
+    color:#756b62;
+    font-family: "corm";
+    font-weight: 600;
+    margin-top: 7px;
+}
+
+.container .mimilo{
+    margin-top: 0;
+}
+
+.container .head-info .princ-nab{
+    display: flex;
+    
+
+}
+
+.container .head-info .princ-nab .shoper{
+    margin-top: 8px;
+}
+
+
+.container .head-info .princ-nab h2 a{
+    font-size: 14px;
+    color: #988f87;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-right: 45px;
+    text-decoration: none;
+    margin-top: 0;
+}
+.container .head-info .princ-nab h2{
+    margin-top: 8px;
+}
+
+
+
+.softly h1{
+    font-style: normal;
+    font-weight: 300;
+    font-family: "Corm";
+    font-size: 75px;
+    color: rgb(145, 127, 106);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 125px;
+    top: 380px;
+
+}
+.img1{
+    position: absolute;
+    left: 0px;
+    top: 35px;
+    width: 300px;
+}
+.img2{
+    position: absolute;
+    left: 520px;
+    top: 150px;
+    width: 500px;
+}
+.img3{
+    position: absolute;
+    left: 240px;
+    top: 635px;
+    width: 150px;
+}
+.img4{
+    position: absolute;
+    left: 948px;
+    top: 710px;
+    opacity: 0.18;
+    
+    
+    
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    position:relative;
+}
+
+
+.luv .container{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.luv .container img{
+    height: 150px;
+    width: 190px;
+    position: relative;
+    z-index: -1;
+    left: -45px;
+}
+
+.luv .container p{
+    font-family: "Corm";
+    color: rgba(134, 126, 116, 0.932);
+    font-size: 33px;
+    position: relative;
+    left: 20px;
+    font-style: italic;
+}
+
+.luv .container span{
+    font-family: 'Montserrat ' ;
+    color: rgb(107, 98, 89);
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+.section-collection{
+    margin-bottom: 430px;
+    margin-top: 130px;
+}
+
+.section-collection .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-collection .container .card{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-collection .container .card .card-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.section-collection .container .card .card-info .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50px;
+    color: rgb(119, 115, 111);
+}
+
+.section-collection .container .card .collection{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.section-collection .container .card .collection p{
+    color: rgb(148, 142, 135);
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.section-collection .container .card .collection .line{
+    background-color: rgb(148, 142, 135);
+    width: 60px;
+    height: 2px;
+    
+}
+
+#card-info-img{
+    height: 40px;
+    width: 40px;
+	opacity: 0.25;
+}
+
+#card-2{
+    margin-top: 50px;
+    position: relative;
+    right: -100px;
+}
+
+.section-collection .card-3{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 100px;
+    top: 250px;
+    color: rgb(148, 142, 135);
+    opacity: 0.3;
+}
+
+
+.section-collection .img-soap{
+    height: 350px;
+    position: relative;
+    left: 180px;
+    top: 100px;
+}
+
+
+ 
+.block-history{ 
+    height: 900px; 
+} 
+ 
+.block-history .container .text .history .line{ 
+    width: 60px; 
+    height: 2px; 
+    background-color:rgb(148, 142, 135);
+} 
+ 
+.block-history .container .text .history{ 
+    height: 50px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 180px; 
+    color: rgb(148, 142, 135);
+    font-size: 20px;
+} 
+ 
+.block-history .container{ 
+    height: 900px;
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+} 
+
+.block-history .container .img-text{
+    height: 600px;
+    justify-self: end;
+}
+ 
+.block-history .container .text{ 
+    width: 802.82px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 460px; 
+} 
+ 
+.block-history .container .text .min-txt{ 
+    font-family: 'Corm'; 
+    font-size: 58px; 
+    font-style: italic; 
+    color: rgb(87, 87, 86); 
+} 
+ 
+.block-history .container .text .info{ 
+    font-family: 'Corm'; 
+    font-size: 25px; 
+    font-style: italic; 
+    color: rgb(129, 129, 119); 
+} 
+ 
+.block-history .container .text .busins .photo{ 
+    width: 75px; 
+    height: 75px; 
+    background-image: url(../img/women.png); 
+    background-repeat: no-repeat; 
+} 
+ 
+.block-history .container .text .busins{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 200px; 
+} 
+ 
+.block-history .rose{
+    width: 300px;
+    height: 400px; 
+    position: relative; 
+    top: -400px;
+    right: -185px;
+} 
+ 
+.block-history .bottle{ 
+    width: 250px;
+    height: 250px;
+    position: relative; 
+    left:520px ;
+    bottom: 190px;
+} 
+ 
+.block-history .container .text .busins .wom{ 
+    text-decoration: underline; 
+    color: rgb(68, 66, 66); 
+} 
+ 
+.block-history .container .text .busins .creator{ 
+    color: rgb(124, 120, 115); 
+} 
+ 
+
+ 
+.principle{ 
+    margin-bottom: 200px; 
+    margin-top: 0px;
+} 
+ 
+.principle .container{ 
+    height: 200px; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+} 
+ 
+.principle .container .card{ 
+    height: 200px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-around; 
+} 
+ 
+.principle .container .card p{ 
+    font-family: 'Corm'; 
+    font-size: 24px; 
+    color: rgb(131, 126, 120); 
+    font-style: italic;
+}
+
+
+.siyanie{
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+
+.siyanie .text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+ }
+
+.siyanie .text p{
+    font-family: 'Corm';
+    font-size: 130px;
+    color: rgb(177, 170, 162);
+    height: 130px;
+}
+
+.siyanie .card{
+    background-image: url(../img/13.jpg);
+    background-position: -50px -90px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: -450px;
+}
+
+.siyanie .card p{
+    color: rgb(255, 255, 255);
+}
+
+.siyanie .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.siyanie .card .buy{
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    font-family: "Montserrat";
+    font-weight: 400;
+    transition: .6s;
+}
+.siyanie .card .buy:hover{
+    background-color: #e9983b80;
+    color: #a01c32;
+    border: none;
+    transition: .5s;
+}
+
+.siyanie .card .card-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+
+
+.section-subscribe{
+    margin-top: 0px;
+}
+
+.section-subscribe .container{
+    width: 1500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-subscribe .container .text{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-subscribe .container .photos img{
+    width: 250px;
+    height: 250px;
+}
+
+.section-subscribe .container .photos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-subscribe .container .text p{
+    color: rgb(107, 107, 103);
+}
+
+.section-subscribe .container .text span{
+    color: rgb(40, 40, 39); 
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+
+
+.inp{
+    padding-top: 50px;
+}
+.soglas p{
+    margin-left: 15px;
+}
+.soglas p{
+    color: #504e4c;
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-left: 8px;
+    word-spacing: 40px;
+}
+
+.sogl{
+    margin-top: 20px;
+}
+.sogl p{
+    color: #504e4c;
+    font-size: 17px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-left: 5px;
+}
+.autor{
+    background: url(../img/19.jpg);
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+}
+
+.autor .container{
+    width: 100%;
+    max-width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+.autor .container .text{
+    padding-top: 5px;
+}
+.autor .container .text h2{
+    font-size: 60px;
+    font-family: "Corm";
+    font-style: italic;
+    color: #332c26;
+    line-height: 50px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.autor .container .text h3{
+    font-size: 28px;
+    font-family: "Corm";
+    font-style: italic;
+    color: #686059;
+}
+
+
+.autor .container .inp{
+    display: flex;
+    flex-direction: column;
+}
+
+.autor .inp .i{
+    background: none;
+    width: 490px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #5e564f;
+    outline:none;
+}
+
+.autor .inp input::-webkit-input-placeholder{
+    color: #988f87;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    
+}
+.autor .drop a{
+    color: #666054;
+}
+.autor .drop{
+    background: none;
+    border: 2px solid #5e564f;
+    color: #4d4641;
+    width: 170px;
+    height: 45px;
+    border-radius: 30px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    transition: .6s;
+    margin-bottom: 160px;
+    margin-top: 50px;
+    
+}
+.autor .drop:hover{
+    background-color: #ff7d04bb;
+    color: #e6e5e5;
+    border: none;
+    transition: .5s;
+}
+.autor .block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.autor .block-2{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.iformation{
+    background: url(../img/20.jpg);
+    background-size: 100%;
+    
+}
+.iformation .container{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.iformation .info{
+    display: flex;
+    padding-top: 125px;
+    justify-content: space-between;
+}
+
+.iformation .blok-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.iformation .blok-1 .mimilo1{
+    font-size: 25px;
+    color: #f1e9de;
+    font-family: "corm";
+    margin-bottom: 0;
+    position: relative;
+    bottom: 35px;
+}
+.iformation .blok-1 .natur{
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: #9b938d;
+    margin-bottom: 45px;
+    position: relative;
+    bottom: 35px;
+}
+
+.iformation .blok-1 .log{
+    font-size: 15px;
+    color: #9f968e;
+    font-family: "Montserrat";
+    position: relative;
+    bottom: 35px;
+}
+
+.iformation .info .blok-2 .adress{
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: #9f968e;
+    position: relative;
+    bottom: 53px;
+
+}
+.iformation .blok-2{
+    margin-top: 50px; 
+}
+.iformation .info .blok-3 img{
+    margin-right: 25px;
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+
